@@ -1,0 +1,12 @@
+.Pharagrap{
+  margin-top: 20px;
+  width: 100%;
+  z-index: 109;
+  display: flex;
+  flex-direction: column;
+  padding: 7px 0;
+  font-family: arialF;
+  gap: 8px;
+  color: #fff;
+  font-size: 13px;
+}

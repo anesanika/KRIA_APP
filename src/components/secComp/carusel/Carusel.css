@@ -1,0 +1,46 @@
+.carusel-cont{
+  width: 100%;
+  padding: 20px 2px; 
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
+}
+
+.main-carusel{
+  width: 90%;
+  padding: 30px 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.cards-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex: 0 0 100%;
+  transition: 0.6s all;
+}
+
+.carusel-cont button{
+  background: none;
+  padding: 20px 10px;
+  border: none;
+  color: #fff;
+  display: flex;
+  outline: none;    
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .carusel-cont{
+    padding: 20px 10px;
+  }  
+  .main-carusel{
+    height: 400px;
+  }
+
+}

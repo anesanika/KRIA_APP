@@ -1,0 +1,144 @@
+.about-cont{
+  width: 100%;
+  display: flex;
+  padding: 5px 5px;  
+  margin-top: 50px;
+  align-items: center;
+}
+.about-cont > div{
+  flex: 0 0 50%;
+}
+
+.more-about{
+  padding: 10px 30px;
+  position: relative;
+  background-image: linear-gradient(0deg, #151242 1%, #1c206e 25%);
+  border-radius: 2px;
+  overflow-x: hidden;
+  height: 480px;
+}
+
+.more-about .title-year{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+}
+.more-about .title-year::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -30px;
+  width: 120%;
+  height: 100%;
+  background-color: #a693fc23;
+  z-index: 2;
+}
+
+.more-about .title-year h1{
+  font-size: 40px;
+  width: 40%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.more-about .title-year h3{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.phr{
+  display: flex;
+  flex-direction: column;
+}
+
+.phr button{
+  margin: 40px 0 10px 0;
+  font-size: 14px;
+  max-width: 160px;
+  padding: 10px 20px;
+  background-color: #ce3434;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.about-carusel{
+  z-index: 100;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-right: 8px solid #fff;
+  transition: 0.5s;
+}
+.about-carusel > img{
+  flex: 0 0 100%;
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  transition: .6s;
+  height: auto;
+  max-height: 440px;
+}
+
+.about-carusel .index-div{
+  position: absolute;
+  width: 20px;
+  left :13px;
+  bottom: 11px;
+  height: 20px;
+  background-color: #fff;
+  border: none;
+}
+.about-carusel .index-div:focus{
+  background-color: #4b4b4b;
+}
+
+.about-carusel .index-div:nth-child(2n){
+  left: 36px;
+}
+.about-carusel .index-div:last-child{
+  left: 60px;
+}
+.fulscren-image{
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fulscren-image::after{
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  content: "";
+  background-color: #030303b6;
+  z-index: -1;
+}
+.fulscren-image img{
+  width: 60%;
+}
+.fulscren-image button{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .about-cont{
+    padding: 10px;
+    flex-direction: column;
+  } 
+}
