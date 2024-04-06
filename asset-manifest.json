@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/KRIA_APP/static/css/main.208d2cf7.css",
+    "main.js": "/KRIA_APP/static/js/main.6c8b3a55.js",
+    "static/media/back-layer.png": "/KRIA_APP/static/media/back-layer.e2a7445a5b25df7ac1e5.png",
+    "static/media/aboutImg.png": "/KRIA_APP/static/media/aboutImg.c7dab29d278c1a3867e7.png",
+    "static/media/mid-layer.png": "/KRIA_APP/static/media/mid-layer.a7fad02464fbaf190866.png",
+    "static/media/first-layer.png": "/KRIA_APP/static/media/first-layer.8a86702316919032328a.png",
+    "static/media/arial.ttf": "/KRIA_APP/static/media/arial.c54859dda733c50328d8.ttf",
+    "static/media/car1.png": "/KRIA_APP/static/media/car1.9ae882d23840894cd6b5.png",
+    "static/media/car2.png": "/KRIA_APP/static/media/car2.3660b46becb5ec4f0c71.png",
+    "index.html": "/KRIA_APP/index.html",
+    "main.208d2cf7.css.map": "/KRIA_APP/static/css/main.208d2cf7.css.map",
+    "main.6c8b3a55.js.map": "/KRIA_APP/static/js/main.6c8b3a55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.208d2cf7.css",
+    "static/js/main.6c8b3a55.js"
+  ]
+}
