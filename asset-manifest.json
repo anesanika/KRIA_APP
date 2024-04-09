@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KRIA_APP/static/css/main.208d2cf7.css",
+    "main.css": "/KRIA_APP/static/css/main.02a1ffeb.css",
     "main.js": "/KRIA_APP/static/js/main.212c0371.js",
     "static/media/back-layer.png": "/KRIA_APP/static/media/back-layer.e2a7445a5b25df7ac1e5.png",
     "static/media/aboutImg.png": "/KRIA_APP/static/media/aboutImg.c7dab29d278c1a3867e7.png",
@@ -10,11 +10,11 @@
     "static/media/car1.png": "/KRIA_APP/static/media/car1.9ae882d23840894cd6b5.png",
     "static/media/car2.png": "/KRIA_APP/static/media/car2.3660b46becb5ec4f0c71.png",
     "index.html": "/KRIA_APP/index.html",
-    "main.208d2cf7.css.map": "/KRIA_APP/static/css/main.208d2cf7.css.map",
+    "main.02a1ffeb.css.map": "/KRIA_APP/static/css/main.02a1ffeb.css.map",
     "main.212c0371.js.map": "/KRIA_APP/static/js/main.212c0371.js.map"
   },
   "entrypoints": [
-    "static/css/main.208d2cf7.css",
+    "static/css/main.02a1ffeb.css",
     "static/js/main.212c0371.js"
   ]
 }
